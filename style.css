@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('HelveticaNowDisplay-ThinIta.eot');
+    src: local('Helvetica Now Display Thin Ita'), local('HelveticaNowDisplay-ThinIta'),
+        url('HelveticaNowDisplay-ThinIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowDisplay-ThinIta.woff2') format('woff2'),
+        url('HelveticaNowDisplay-ThinIta.woff') format('woff'),
+        url('HelveticaNowDisplay-ThinIta.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+*{
+    font-family: 'Helvetica Now Display';
+}
+.landing_section{
+    background-image: url("./assets/Header_landing_section/Main_banner.png");
+}
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
