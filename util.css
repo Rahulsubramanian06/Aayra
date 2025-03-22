@@ -115,6 +115,9 @@
   .background_color_testimonial_light_blue {
     background-color: #D5E6FF;
   }
+  .background_color_dark_blue{
+    background-color:#052659 !important;
+  }
 
   /* line height */
   .line_height_10{
