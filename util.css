@@ -194,5 +194,8 @@
     width: 100%;
     height: auto;
   }
-  
-  
+
+  /* default container width */
+.container {
+  max-width: 1360px !important;
+}
