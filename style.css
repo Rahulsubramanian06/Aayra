@@ -118,8 +118,10 @@
 }
 .video-background1{
         background: url(assets/Video_call/live.png) no-repeat;
-        width: 655px !important;
-        height: 410px !important; */
+        width: 100% !important;
+        height: 60vh !important; 
+        background-size: cover;
+        background-position: center;
 
 } 
 
