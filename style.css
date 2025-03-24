@@ -6,6 +6,7 @@
 .pink-bg {
     background: linear-gradient(#de668b,#ffb8ce);
      border-radius: 0 0 18px 18px;
+     opacity: 0.8;
    }
    .blue-bg {
      background: linear-gradient(#052659,#5a9bff);
@@ -89,7 +90,6 @@
 }
 .background-image9{
     background-image: url(assets/Shop_by_category/category_img_3.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 290px;
@@ -116,49 +116,24 @@
     border-radius: 20px;
 
 }
-.video-background1{
-        background: url(assets/Video_call/live.png) no-repeat;
-        width: 100% !important;
-        height: 60vh !important; 
-        background-size: cover;
-        background-position: center;
-
-} 
-
-
-
-/* .container-customize{
-    width: 99%;
-} */
+.container-customize{
+    width: 86%;
+}
 #mySwipers {
     width: 100%;
     height: 100%;
   }
-
-  #sider-1{
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-   #sider-1 img {
-    display: block;
+.footer-background-image{
+    background: url(assets/Footer/Footer_Background.png),no-repeat;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-  }
-
-  /* .video-background1 {
-    width: 100%;
-    height: 300px; 
-    background-image: url('assets/Video_call/live.png'); 
     background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-  } */
+}
+
+
+ 
+
+  
 
   
   
