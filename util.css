@@ -195,4 +195,7 @@
     height: auto;
   }
   
-  
+  /* cursor */
+.cursor_pointer{
+  cursor: pointer;
+}
