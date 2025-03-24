@@ -14,23 +14,21 @@
 }
 
 /* swiper */
-swiper-container {
+#landing_section_swiper_container {
     width: 100%;
     height: 100%;
   }
-
-  swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+  #landing_section_swiper_slide {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  swiper-slide img {
+  #landing_section_swiper_slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  #landing_section_swiper_container::part(bullet-active) {
+    background-color: rgb(255, 255, 255);
   }
