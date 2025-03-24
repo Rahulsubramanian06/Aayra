@@ -1,0 +1,85 @@
+body {
+  font-family: "Helvetica Now Display", sans-serif;
+}
+/* Heritage By Aayra */
+.Heritage_BG {
+  background-image: url(assets/Heritage_by_aayra/Heritage_Background.png);
+}
+
+.Heritage_heading {
+  background: linear-gradient(
+    to top,
+    #d29a15 -60.17%,
+    #ce9814 20.72%,
+    #fde873 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Swiper for Heritage */
+.swiper_heritage .swiper-slide {
+  filter: blur(5px); /* Blur all slides */
+  transition: filter 0.5s ease;
+}
+.swiper_heritage .swiper-slide-active {
+  filter: blur(0); /* Remove blur from the center slide */
+}
+
+.swiper_heritage .swiper-slide img {
+  transform: scale(0.7);
+}
+
+.swiper_heritage .swiper-slide-active img {
+  transform: scale(1);
+}
+
+.heritage_text_hover {
+  display: none;
+}
+
+.swiper_heritage .swiper-slide-active .heritage_text_hover {
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0; /* Initially hidden */
+  /* Slightly pushed down */
+  transition: all 0.5s ease-in-out;
+}
+
+.swiper_heritage .swiper-slide-active .heritage_text_hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#e48320, #fbb818); /* Background color */
+  opacity: 0.5;
+  z-index: -1; /* Behind the text */
+  border-radius: inherit;
+}
+
+/* Hover effect */
+.swiper_heritage .swiper-slide:hover .heritage_text_hover {
+  opacity: 1; /* Show text */
+  transform: translateY(0); /* Bring text up */
+}
+
+/* Shop by Look */
+.swiper_shop_by_look .swiper-slide-active img{
+  filter: blur(0); /* Remove blur from the center slide */
+  transform: scale(1.3); /* Increases size by 1.5 times */
+}
+
+.background-color-DarkBlue{
+  background-color: #052659;
+}
+/* Shop by Budject */
+.shop_by_budject{
+  background: linear-gradient(to right, #FFFFFF 33.38%, #DEF5FE 73.52%);
+
+}
+.category_box_color{
+  background: linear-gradient(360deg, #DE668B 0%, #FFB8CE 127.27%);
+
+}
+
