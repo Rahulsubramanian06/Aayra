@@ -278,9 +278,59 @@ body {
   height: 100%;
 }
 
-/* .sub_swiper_shop_by_look .swiper-slide img{
-  opacity: 0.4;
+
+.slider_image_wrapper {
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
 }
-.sub_swiper_shop_by_look .swiper-slide-active img{
-  opacity: 1;
-} */
+.fit_width {
+  width: fit-content;
+}
+.testimonial_swiper {
+  overflow: visible;
+}
+.testimonial_card_content_wordings {
+  width: 260px;
+}
+
+.testimonial_swiper {
+  transform: rotate(18deg);
+}
+.hanger_image_wrapper {
+  position: relative;
+  z-index: 2;
+}
+.hanging_clip_with_image_wrapper_1 {
+  height: 30px;
+}
+.swiper-container {
+  margin-top: -2%;
+}
+.font_color_white {
+  color: #ffffff;
+}
+
+.background_color_blue {
+  background-color: #052659;
+}
+
+.vedio_call_banner_button {
+  border: none;
+}
+
+.vedio_call_banner_image {
+  position: relative;
+  overflow: hidden;
+}
+.vedio_call_banner_content {
+  position: absolute;
+  top: 48%;
+  left: 10%;
+
+  width: 100%;
+
+  z-index: 2;
+}
+
