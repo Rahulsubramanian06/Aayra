@@ -6,7 +6,7 @@
 .pink-bg {
     background: linear-gradient(#de668b,#ffb8ce);
      border-radius: 0 0 18px 18px;
-     opacity: 0.8;
+     opacity: 0.9;
    }
    .blue-bg {
      background: linear-gradient(#052659,#5a9bff);
@@ -129,6 +129,30 @@
     height: 100%;
     background-size: cover;
 }
+#mySwipers-1 {
+    width: 100%;
+    height: 20%;
+
+  }
+
+ #sider-2 {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ #sider-2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-customize{
+    width: 52px !important;
+    
+  }
 
 
  
