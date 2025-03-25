@@ -65,21 +65,28 @@ body {
 }
 
 /* Shop by Look */
-.swiper_shop_by_look .swiper-slide-active img{
+.swiper_shop_by_look .swiper-slide-active img {
   filter: blur(0); /* Remove blur from the center slide */
   transform: scale(1.3); /* Increases size by 1.5 times */
 }
 
-.background-color-DarkBlue{
+.background-color-DarkBlue {
   background-color: #052659;
 }
 /* Shop by Budject */
-.shop_by_budject{
-  background: linear-gradient(to right, #FFFFFF 33.38%, #DEF5FE 73.52%);
-
+.shop_by_budjet {
+  background: linear-gradient(to right, #ffffff 33.38%, #def5fe 73.52%);
 }
-.category_box_color{
-  background: linear-gradient(360deg, #DE668B 0%, #FFB8CE 127.27%);
-
+.category_box_color {
+  background: linear-gradient(360deg, #de668b 0%, #ffb8ce 127.27%);
+}
+.swiper_shop_by_look .swiper-slide img {
+  height: 100%;
 }
 
+/* .sub_swiper_shop_by_look .swiper-slide img{
+  opacity: 0.4;
+}
+.sub_swiper_shop_by_look .swiper-slide-active img{
+  opacity: 1;
+} */
