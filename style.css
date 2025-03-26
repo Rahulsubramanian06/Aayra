@@ -32,3 +32,12 @@
   #landing_section_swiper_container::part(bullet-active) {
     background-color: rgb(255, 255, 255);
   }
+
+  .img_wrapper{
+    width: 579px;
+    height: 482px;
+  }
+  .collections{
+    width: 100%;
+    height: 100%;
+  }
