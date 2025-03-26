@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- Heritage by Aayra -->
- <section class="Heritage_BG  container-fluid mt-5 mb-5">
+ <section class="Heritage_BG  container-fluid pt-3 pb-3">
       <p class="Heritage_heading  font_size_54 font_weight_800 text-center">
         HERITAGE BY AAYRAA
       </p>
@@ -196,9 +196,11 @@
             </a>
           </div>
           </div>
+          <!-- pagination -->
+          <div class="d-flex d-lg-none d-md-none d-sm-none pt-3"> <div class="swiper-pagination"></div></div>
           </div>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-none d-lg-flex d-md-flex d-sm-flex justify-content-center">
           <button class="border-0 bg-transparent px-5 heritage-left">
             <img
               src="assets/Heritage_by_aayra/heritage_navigation_button_left.png"
@@ -219,16 +221,16 @@
     </section>
 
     <!-- Shop By Look -->
-    <section class="container mt-5 mb-5">
+    <section class="container mt-3 mb-3">
       <div class="row ">
         <div class="col-lg-7 col-md-7 col-sm-7 col-12">
-          <p class="font_size_27 font_weight_400 font_color_dark_blue">
+          <p class="font_size_27 m-0 font_weight_400 font_color_dark_blue d-flex justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start">
             Shop By
           </p>
-          <p class="font_size_64 font_weight_700 font_color_dark_blue">
+          <p class="font_size_64 m-0 pb-4 font_weight_700 font_color_dark_blue d-flex justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start">
             The Look
           </p>
-          <p class="font_size_20 font_weight_400 font_color_dark_blue">
+          <p class="font_size_20 font_weight_400 font_color_dark_blue d-flex justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start">
             Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
             consectetur. Nunc nisl non augue mauris. Nunc nisl non augue mauris.
             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
@@ -257,8 +259,8 @@
               <div class="swiper-slide">
                 <img src="assets/Shop_by_look/look_img_1.png" class="img-fluid" />
               </div>
-          
             </div>
+            
             <button class="border-0 bg-transparent px-5 ">
               <img
                 src="assets/Heritage_by_aayra/heritage_navigation_button_left.png"
@@ -286,12 +288,12 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-5  col-12 align-item-center">
+        <div class="col-lg-5 col-md-5 col-sm-5  col-12 ">
           <div
           class="swiper mySwiper_look"
         >
           <div class="swiper-wrapper">
-            <div class="swiper-slide Shop_by_look_big_img d-flex justify-content-center">
+            <div class="swiper-slide Shop_by_look_big_img d-flex justify-content-center ">
               <img src="assets/Shop_by_look/look_img_1.png" class="img-fluid object_cover " />
             </div>
             <div class="swiper-slide Shop_by_look_big_img d-flex justify-content-center">
@@ -312,10 +314,14 @@
             <div class="swiper-slide Shop_by_look_big_img d-flex justify-content-center">
               <img src="assets/Shop_by_look/look_img_1.png" class="img-fluid object_cover" />
             </div>
-          </div>
-       
-        </div>
+           </div>
+           
+          <div class="swiper-pagination-2  d-flex  d-lg-none d-md-none d-sm-none pt-5 justify-content-center position-relative"></div>
+         
+        </div>    
+        
         <div class="d-flex  d-lg-none d-md-none d-sm-none justify-content-center mt-5">
+        
           <button
             class="background-color-DarkBlue text-white rounded-4 border-0 text-center"
           >
@@ -330,7 +336,7 @@
     </section>
 
     <!-- Shop by Budjet -->
-    <section class="shop_by_budjet  mt-5 pb-5">
+    <section class="shop_by_budjet  mt-3 mb-3 pb-4 ">
       <div class="container">
         <p
           class="font_size_27 font_weight_400 font_color_dark_blue d-flex justify-content-center mt-5 m-0"
@@ -342,21 +348,21 @@
         >
           Budget
         </p>
-        <div class="row mt-5 scroll_container d-flex flex-nowrap ">
-         
+        <div class="row mt-3 ">
+         <!-- image - 1 -->
           <div
-          class="col-12 col-lg-4 col-md-4 col-sm-4 d-flex flex-lg-column-reverse flex-lg-column pt-3 justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start "
+          class="col-12 col-lg-4 col-md-4 col-sm-4 d-flex flex-lg-column-reverse flex-lg-column pt-3 justify-content-start  justify-content-lg-start justify-content-md-start justify-content-sm-start "
         >
-          <a href="">
+          <a href="" class="shop_by_budjet_img1">
             <div
-              class="d-flex flex-row justify-content-center flex-end position-relative"
+              class="d-flex flex-row justify-content-center flex-end position-relative "
             >
               <img
                 src="assets/Shop_by_budget/Budget_img_2.png"
                 class="img-fluid"
                 alt=""
               />
-              <div class="position-absolute bottom-0 pb-4">
+              <div class="position-absolute bottom-0 pb-2">
                 <p class="text-white text-center font_size_24 mb-0">under</p>
                 <p
                   class="text-white font_size_40 font_weight_700 line_height_40 mt-0"
@@ -367,33 +373,38 @@
             </div>
           </a>
         </div>
+        <!-- image - 2 -->
         <div
-          class="col-12 col-lg-4 col-md-4 col-sm-4 pt-4 d-flex flex-lg-column-reverse flex-lg-column justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start "
-        >
-          <a href="">
-            <div
-              class="d-flex flex-row justify-content-center position-relative shop_by_budjet_img"
-            >
-              <img
-                src="assets/Shop_by_budget/Budget_img_1.png"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="position-absolute bottom-0 pb-4">
-                <p class="text-white text-center font_size_24 mb-0">under</p>
-                <p
-                  class="text-white font_size_40 font_weight_700 line_height_40 mt-0"
-                >
-                  ₹ 25000
-                </p>
-              </div>
+        class="col-12 col-lg-4 col-md-4 col-sm-4 pt-4  d-flex flex-lg-column-reverse flex-lg-column justify-content-end justify-content-lg-start justify-content-md-start justify-content-sm-start "
+      >
+        <a href="" class="shop_by_budjet_img2">
+          <div
+            class="d-flex flex-row justify-content-center position-relative "
+          >
+            <img
+              src="assets/Shop_by_budget/Budget_img_1.png"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="position-absolute bottom-0 pb-4">
+              <p class="text-white text-center font_size_24  m-0">under</p>
+              <p
+                class="text-white font_size_40 font_weight_700 line_height_40 m-0"
+              >
+                ₹ 25000
+              </p>
             </div>
-          </a>
-        </div>
-        <div class="col-12 col-lg-4 col-md-4 col-sm-4 pt-4">
-          <a href="">
+          </div>
+        </a>
+      </div>
+       
+        <!-- image - 3 -->
+        <div
+          class="col-12 col-lg-4 col-md-4 col-sm-4 pt-4  d-flex flex-lg-column-reverse flex-lg-column justify-content-start justify-content-lg-start justify-content-md-start justify-content-sm-start "
+        >
+          <a href="" class="shop_by_budjet_img3">
             <div
-              class="d-flex flex-row justify-content-center position-relative shop_by_budjet_img"
+              class="d-flex flex-row justify-content-center position-relative "
             >
               <img
                 src="assets/Shop_by_budget/Budget_img_3.png"
@@ -401,16 +412,16 @@
                 alt=""
               />
               <div class="position-absolute bottom-0 pb-4">
-                <p class="text-white text-center font_size_24 mb-0">under</p>
+                <p class="text-white text-center font_size_24  m-0">under</p>
                 <p
-                  class="text-white font_size_40 font_weight_700 line_height_40 mt-0"
+                  class="text-white font_size_40 font_weight_700 line_height_40 m-0"
                 >
                   ₹ 50000
                 </p>
               </div>
-              </div>
-              </a>
-              </div>
+            </div>
+          </a>
+        </div>
               </div>
               </div>
               </section>
@@ -418,82 +429,84 @@
       
 
     <!-- Experience with aayra -->
-    <section class="container-fluid pt-5 mt-5 mb-5 pb-5">
-      <p
-        class="p-0 m-0 text-center font_size_64 font_color_dark_blue font_weight_700 capitalize-first"
-      >
-        Experience with <span class="font_color_dark_red">Aayraa</span>
-      </p>
-      <p
-        class="p-0 text-center font_size_50 font_color_dark_blue font_weight_700 capitalize-first"
-      >
-        Share Your Experiences With Aayraa
-        <span class="font_color_dark_red capitalize-first">#myAayraa</span
-        ><br />
-        And Win Exciting Gift Vouchers
-      </p>
+    <section class="container-fluid mt-3 mb-3">
+<div class="d-flex flex-column ">
+  <p
+  class="p-0 m-0 text-center font_size_64 font_color_dark_blue font_weight_700 capitalize-first text-nowrap"
+>
+  Experience with <span class="font_color_dark_red">Aayraa</span>
+</p>
+<p
+  class="p-0 text-center font_size_48 font_color_dark_blue font_weight_700 capitalize-first"
+>
+  Share Your Experiences With Aayraa
+  <span class="font_color_dark_red capitalize-first">#myAayraa</span
+  ><br />
+  And Win Exciting Gift Vouchers
+</p>
+</div>
       <div class="swiper swiper_experience">
         <div class="swiper-wrapper">
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column justify-content-center ">
               <p class="font_color_light_grey m-0 mb-1">#MakeBoldMoves</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_3.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#StackItUp</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_1.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#StylingTip</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_2.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#MakeBoldMoves</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_3.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#StackItUp</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_1.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#StylingTip</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_2.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
           <div class="swiper-slide d-flex justify-content-center">
-            <div class="d-flex flex-column object_contain experience_wuth_aayra_img">
+            <div class="d-flex flex-column ">
               <p class="font_color_light_grey m-0 mb-1">#MakeBoldMoves</p>
               <img
                 src="assets/Experience_with_aayra/Experience_img_3.png"
-                class="img-fluid"
+                class="object_cover"
               />
             </div>
           </div>
@@ -513,92 +526,102 @@
     <script>
       // Heritage by aayra swiper
       var swiper1 = new Swiper(".swiper_heritage", {
-        slidesPerView: 5,
-        loop: true,
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        coverflowEffect: {
-          rotate: 0,
-          stretch: -40,
-          depth: 30,
-          modifier: 1,
-          slideShadows: false,
-        },
-        navigation: {
-          nextEl: ".heritage-right",
-          prevEl: ".heritage-left",
-        },
-
-        breakpoints: {
-          0: {
-            // For screens >= 640px
+    slidesPerView: 5,
+    loop: true,
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    coverflowEffect: {
+        rotate: 0,
+        stretch: -40,
+        depth: 30,
+        modifier: 1,
+        slideShadows: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      
+    },
+    navigation: {
+        nextEl: ".heritage-right",
+        prevEl: ".heritage-left",
+    },
+ 
+    breakpoints: {
+        0: {
             slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          330: {
-            // For screens >= 640px
-            slidesPerView: 2,
-            spaceBetween: 2,
-          },
-          640: {
-            // For screens >= 640px
-            slidesPerView: 3,
-            spaceBetween: 0,
-          },
-          768: {
-            // For screens >= 768px
-            slidesPerView: 3,
-            spaceBetween: 40,
-          },
-          1024: {
-            // For screens >= 1024px
-            slidesPerView: 5,
-            spaceBetween: 20,
-          },
         },
-      });
+        330: {
+            slidesPerView: 2,
+        },
+        640: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    },
+    // Manually update pagination on slide change
+    on: {
+        slideChange: function () {
+            let realIndex = this.realIndex;  // Get the real slide index
+            let bullets = document.querySelectorAll('.swiper-pagination-bullet');
+
+            bullets.forEach((bullet, index) => {
+                bullet.classList.toggle('swiper-pagination-bullet-active', index === realIndex);
+            });
+        }
+    }
+});
+
+
       //  Shop by look swiper
-      var swiper2 = new Swiper(".sub_swiper_shop_by_look", {
+      var swiper = new Swiper(".sub_swiper_shop_by_look", {
         loop: true,
         spaceBetween: 10,
-        slidesPerView: 4,
-        centeredSlides: true,
+        slidesPerView: 5,
+        
         freeMode: true,
         watchSlidesProgress: true,
-    });
-    var swiper_shop_by_look = new Swiper(".mySwiper_look", {
-      loop: true,
+      });
+      var swiper2 = new Swiper(".mySwiper_look", {
+        loop: true,
         spaceBetween: 10,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        pagination: {
+        el: ".swiper-pagination-2",
+        clickable: true,
+      
+    },
         thumbs: {
-          swiper: swiper2,
+          swiper: swiper,
         },
-    });
+      });
       // Experience with Aayra
       var swiper = new Swiper(".swiper_experience", {
-        slidesPerView: 3,
-        spaceBetween: 20,
+        
         loop: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
         breakpoints: {
-          540: {
-            slidesPerView: 2,
+          0: {
+            slidesPerView: 1,
           },
-          768: {
+          508: {
             slidesPerView: 3,
           },
           1024: {
-            slidesPerView: 4,
-          },
-          1440: {
-            slidesPerView: 5,
+            slidesPerView:6,
+            spaceBetween:10,
           },
         },
       });
