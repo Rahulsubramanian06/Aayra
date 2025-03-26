@@ -83,10 +83,58 @@ body {
 .swiper_shop_by_look .swiper-slide img {
   height: 100%;
 }
-
-/* .sub_swiper_shop_by_look .swiper-slide img{
-  opacity: 0.4;
+.heritage_by_aayra_img_container img {
+  max-width: 500px;
+  height: auto;
 }
-.sub_swiper_shop_by_look .swiper-slide-active img{
+/* Shop by look */
+
+.sub_swiper_shop_by_look {
+  max-height: 500px;
+  box-sizing: border-box;
+}
+
+.sub_swiper_shop_by_look .swiper-slide img {
+  transform: scale(0.8);
+}
+.sub_swiper_shop_by_look .swiper-slide-active img {
+  transform: scale(1);
+}
+
+.sub_swiper_shop_by_look .swiper-slide-thumb-active {
   opacity: 1;
-} */
+}
+.scroll_container {
+  overflow-x: auto;      /* Enables horizontal scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+.scroll_container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
+@media (max-width: 767px) {
+  .heritage_by_aayra_img_container,
+  .heritage_text_hover img {
+    max-width: 300px;
+    height: auto;
+  }
+  .shop_by_budjet_img img{
+    max-width: 280px;
+  }
+  .experience_wuth_aayra_img img{
+    max-width: 200px;
+  }
+  .Shop_by_look_big_img img{
+    max-width: 300px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}
