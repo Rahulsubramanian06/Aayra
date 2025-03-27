@@ -285,8 +285,10 @@ body {
   width: 260px;
 }
 
-.testimonial_swiper {
-  transform: rotate(12deg);
+.testimonial_card {
+  transform: rotate(10deg);
+  margin-top: 4%;
+  margin-left: 10%;
 }
 .hanger_image_wrapper {
   position: relative;
@@ -294,9 +296,10 @@ body {
 }
 .hanging_clip_with_image_wrapper_1 {
   height: 30px;
+  margin-left: -60%;
 }
 .swiper-container {
-  margin-top: -2%;
+  margin-top: -1%;
 }
 .font_color_white {
   color: #ffffff;
