@@ -13,108 +13,58 @@
       border-radius: 0 0 18px 18px;
       opacity: 0.9;
     }
+    .background-image,.background-image8,.background-image1,.background-image3,
+    .background-image2,.background-image4,.background-image5,.background-image6,
+    .background-image7{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 .background-image{
     background-image: url(assets/Shop_by_category/category_img_1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 250px;
-    width:330px;
     border-radius: 20px;
-
 }
 .background-image8{
     background-image: url(assets/Shop_by_category/category_img_2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 250px;
-    width:330px;
     border-radius: 20px;
-
 }
-
 .background-image1{
     background-image: url(assets/Shop_by_category/category_img_2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 290px;
-    width:330px;
     border-radius: 20px;
-
 }
 .background-image2{
     background-image: url(assets/Shop_by_category/category_img_4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height:203px;
-    width:330px;
     border-radius: 20px;
-
 }
 .background-image3{
     background-image: url(assets/Shop_by_category/category_img_6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height:150px;
-    width:330px;
     border-radius: 20px;
 }
 .background-image4{
     background-image: url(assets/Shop_by_category/category_img_7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height:150px;
-    width:330px;
     border-radius: 20px;
 }
 .background-image5{
     background-image: url(assets/Shop_by_category/category_img_9.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height:150px;
-    width:330px;
     border-radius: 20px;
 }
 .background-image6{
     background-image: url(assets/Shop_by_category/category_img_4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 290px;
-    width:330px;
     border-radius: 20px;
-
 }
-.background-image9{
-    background-image: url(assets/Shop_by_category/category_img_3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 290px;
-    width:330px;
-    border-radius: 20px;
 
-}
 .background-image7{
     background-image: url(assets/Shop_by_category/category_img_5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height:203px;
-    width:330px;
     border-radius: 20px;
-
-}
-.background-image10{
-    background: url(assets/Shop_by_category/category_img_8.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height:203px;
-    width:330px;
-    border-radius: 20px;
-
 }
 .container-customize{
     width: 86%;
@@ -142,7 +92,6 @@
     justify-content: center;
     align-items: center;
   }
-
  #sider-2 img {
     display: block;
     width: 100%;
@@ -154,6 +103,7 @@
     
   }
 
+  
 
  
 
