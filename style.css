@@ -19,52 +19,53 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 20px;
     }
 .background-image{
     background-image: url(assets/Shop_by_category/category_img_1.png);
     height: 250px;
-    border-radius: 20px;
+   
 }
 .background-image8{
     background-image: url(assets/Shop_by_category/category_img_2.png);
     height: 250px;
-    border-radius: 20px;
+   
 }
 .background-image1{
     background-image: url(assets/Shop_by_category/category_img_2.png);
     height: 290px;
-    border-radius: 20px;
+   
 }
 .background-image2{
     background-image: url(assets/Shop_by_category/category_img_4.png);
     height:203px;
-    border-radius: 20px;
+   
 }
 .background-image3{
     background-image: url(assets/Shop_by_category/category_img_6.png);
     height:150px;
-    border-radius: 20px;
+   
 }
 .background-image4{
     background-image: url(assets/Shop_by_category/category_img_7.png);
     height:150px;
-    border-radius: 20px;
+   
 }
 .background-image5{
     background-image: url(assets/Shop_by_category/category_img_9.png);
     height:150px;
-    border-radius: 20px;
+   
 }
 .background-image6{
     background-image: url(assets/Shop_by_category/category_img_4.png);
     height: 290px;
-    border-radius: 20px;
+   
 }
 
 .background-image7{
     background-image: url(assets/Shop_by_category/category_img_5.png);
     height:203px;
-    border-radius: 20px;
+   
 }
 .container-customize{
     width: 86%;
