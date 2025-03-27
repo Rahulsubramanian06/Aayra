@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="util.css" />
     <!-- font -->
-    <link rel="stylesheet" href="font_helvetica.css" />
+    <link rel="stylesheet" href="HelveticaNowDisplay-Black.ttf" />
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -30,8 +29,12 @@
       src="https://kit.fontawesome.com/34b5d4d2a7.js"
       crossorigin="anonymous"
     ></script>
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
-  <body>
     <div class="container-fluid landing_section p-0">
       <!-- <nav class="navbar navbar-expand-lg position-relative z-1">
         <div class="container-fluid px-4">
@@ -91,7 +94,7 @@
               </form>
               <div class="category">
                 <ul
-                  class="navbar-nav d-flex flex-row justify-content-between p-3 me-auto mb-2 mb-lg-0"
+                  class="navbar-nav d-flex flex-row m-0 p-0 justify-content-between p-3 me-auto mb-2 mb-lg-0"
                 >
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"
@@ -203,6 +206,333 @@
         /></swiper-slide>
       </swiper-container>
     </div>
+    <div class="centered_container d-flex justify-content-center">
+      <div class="container_collection py-5">
+        <div class="collection p-2">
+          <div class="row m-0 p-0">
+            <div class="col-5">
+              <div class="img_wrapper">
+                <div
+                  class="collections bg-secondary d-flex justify-content-center align-items-end rounded-5"
+                >
+                  <button
+                    class="border-0 px-5 py-3 mb-5 rounded-3 font_size_20 font_weight_700 font_color_blue"
+                  >
+                    View All Collections
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-7">
+              <!-- Swiper -->
+              <div class="swiper mySwiper pt-5" id="best_seller_swipper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" id="best_seller_slide">
+                    <div class="best_seller_img_container bg-white p-2 rounded-5">
+                      <div class="best_seller_img_wrapper bg-secondary rounded-5">
+                        <div
+                          class="best_seller_container d-flex justify-content-between align-items-start rounded-3 px-4 pt-3"
+                        >
+                          <div
+                            class="best_seller_content_1 d-flex align-items-center justify-content-between"
+                          >
+                            <button
+                              class="border-0 px-3 py-2 rounded-3 font_color_blue"
+                            >
+                              Best Seller
+                            </button>
+                          </div>
+                          <div
+                            class="best_seller_content_2 d-flex align-items-center"
+                          >
+                            <i
+                              class="fa-regular fa-heart cursor_pointer font_color_blue"
+                            ></i>
+                          </div>
+                        </div>
+                        <div
+                          class="best_seller_bottom_card_container d-flex justify-content-end px-4 pb-3"
+                        >
+                          <img
+                            class="bg-white p-2 rounded-3 cursor_pointer"
+                            src="./assets/Best_seller/card.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="best_seller_price_container">
+                        <div class="best_seller_price_content p-3">
+                          <div class="row m-0 p-0">
+                            <div class="col-12">
+                              <button
+                                class="border-0 bg-transparent p-0 font_color_blue"
+                              >
+                                Jewellery 2
+                              </button>
+                            </div>
+                            <div
+                              class="col-3 text-decoration-line-through font_color_grey"
+                            >
+                              <p>₹ 2000</p>
+                            </div>
+                            <div class="col-9 font_color_red">
+                              <p>( 3% off )</p>
+                            </div>
+                            <div class="col-12 font_color_blue">
+                              <p>₹ 1710</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="best_seller_img_container bg-white p-2 rounded-5">
+                      <div class="best_seller_img_wrapper bg-secondary rounded-5">
+                        <div
+                          class="best_seller_container d-flex justify-content-between align-items-start rounded-3 px-4 pt-3"
+                        >
+                          <div
+                            class="best_seller_content_1 d-flex align-items-center justify-content-between"
+                          >
+                            <button
+                              class="border-0 px-3 py-2 rounded-3 font_color_blue"
+                            >
+                              Best Seller
+                            </button>
+                          </div>
+                          <div
+                            class="best_seller_content_2 d-flex align-items-center"
+                          >
+                            <i
+                              class="fa-regular fa-heart cursor_pointer font_color_blue"
+                            ></i>
+                          </div>
+                        </div>
+                        <div
+                          class="best_seller_bottom_card_container d-flex justify-content-end px-4 pb-3"
+                        >
+                          <img
+                            class="bg-white p-2 rounded-3 cursor_pointer"
+                            src="./assets/Best_seller/card.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="best_seller_price_container">
+                        <div class="best_seller_price_content p-3">
+                          <div class="row m-0 p-0">
+                            <div class="col-12">
+                              <button
+                                class="border-0 bg-transparent p-0 font_color_blue"
+                              >
+                                Jewellery 2
+                              </button>
+                            </div>
+                            <div
+                              class="col-3 text-decoration-line-through font_color_grey"
+                            >
+                              <p>₹ 2000</p>
+                            </div>
+                            <div class="col-9 font_color_red">
+                              <p>( 3% off )</p>
+                            </div>
+                            <div class="col-12 font_color_blue">
+                              <p>₹ 1710</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="best_seller_img_container bg-white p-2 rounded-5">
+                      <div class="best_seller_img_wrapper bg-secondary rounded-5">
+                        <div
+                          class="best_seller_container d-flex justify-content-between align-items-start rounded-3 px-4 pt-3"
+                        >
+                          <div
+                            class="best_seller_content_1 d-flex align-items-center justify-content-between"
+                          >
+                            <button
+                              class="border-0 px-3 py-2 rounded-3 font_color_blue"
+                            >
+                              Best Seller
+                            </button>
+                          </div>
+                          <div
+                            class="best_seller_content_2 d-flex align-items-center"
+                          >
+                            <i
+                              class="fa-regular fa-heart cursor_pointer font_color_blue"
+                            ></i>
+                          </div>
+                        </div>
+                        <div
+                          class="best_seller_bottom_card_container d-flex justify-content-end px-4 pb-3"
+                        >
+                          <img
+                            class="bg-white p-2 rounded-3 cursor_pointer"
+                            src="./assets/Best_seller/card.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="best_seller_price_container">
+                        <div class="best_seller_price_content p-3">
+                          <div class="row m-0 p-0">
+                            <div class="col-12">
+                              <button
+                                class="border-0 bg-transparent p-0 font_color_blue"
+                              >
+                                Jewellery 2
+                              </button>
+                            </div>
+                            <div
+                              class="col-3 text-decoration-line-through font_color_grey"
+                            >
+                              <p>₹ 2000</p>
+                            </div>
+                            <div class="col-9 font_color_red">
+                              <p>( 3% off )</p>
+                            </div>
+                            <div class="col-12 font_color_blue">
+                              <p>₹ 1710</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="best_seller_img_container bg-white p-2 rounded-5">
+                      <div class="best_seller_img_wrapper bg-secondary rounded-5">
+                        <div
+                          class="best_seller_container d-flex justify-content-between align-items-start rounded-3 px-4 pt-3"
+                        >
+                          <div
+                            class="best_seller_content_1 d-flex align-items-center justify-content-between"
+                          >
+                            <button
+                              class="border-0 px-3 py-2 rounded-3 font_color_blue"
+                            >
+                              Best Seller
+                            </button>
+                          </div>
+                          <div
+                            class="best_seller_content_2 d-flex align-items-center"
+                          >
+                            <i
+                              class="fa-regular fa-heart cursor_pointer font_color_blue"
+                            ></i>
+                          </div>
+                        </div>
+                        <div
+                          class="best_seller_bottom_card_container d-flex justify-content-end px-4 pb-3"
+                        >
+                          <img
+                            class="bg-white p-2 rounded-3 cursor_pointer"
+                            src="./assets/Best_seller/card.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="best_seller_price_container">
+                        <div class="best_seller_price_content p-3">
+                          <div class="row m-0 p-0">
+                            <div class="col-12">
+                              <button
+                                class="border-0 bg-transparent p-0 font_color_blue"
+                              >
+                                Jewellery 2
+                              </button>
+                            </div>
+                            <div
+                              class="col-3 text-decoration-line-through font_color_grey"
+                            >
+                              <p>₹ 2000</p>
+                            </div>
+                            <div class="col-9 font_color_red">
+                              <p>( 3% off )</p>
+                            </div>
+                            <div class="col-12 font_color_blue">
+                              <p>₹ 1710</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="best_seller_img_container bg-white p-2 rounded-5">
+                      <div class="best_seller_img_wrapper bg-secondary rounded-5">
+                        <div
+                          class="best_seller_container d-flex justify-content-between align-items-start rounded-3 px-4 pt-3"
+                        >
+                          <div
+                            class="best_seller_content_1 d-flex align-items-center justify-content-between"
+                          >
+                            <button
+                              class="border-0 px-3 py-2 rounded-3 font_color_blue"
+                            >
+                              Best Seller
+                            </button>
+                          </div>
+                          <div
+                            class="best_seller_content_2 d-flex align-items-center"
+                          >
+                            <i
+                              class="fa-regular fa-heart cursor_pointer font_color_blue"
+                            ></i>
+                          </div>
+                        </div>
+                        <div
+                          class="best_seller_bottom_card_container d-flex justify-content-end px-4 pb-3"
+                        >
+                          <img
+                            class="bg-white p-2 rounded-3 cursor_pointer"
+                            src="./assets/Best_seller/card.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="best_seller_price_container">
+                        <div class="best_seller_price_content p-3">
+                          <div class="row m-0 p-0">
+                            <div class="col-12">
+                              <button
+                                class="border-0 bg-transparent p-0 font_color_blue"
+                              >
+                                Jewellery 2
+                              </button>
+                            </div>
+                            <div
+                              class="col-3 text-decoration-line-through font_color_grey"
+                            >
+                              <p>₹ 2000</p>
+                            </div>
+                            <div class="col-9 font_color_red">
+                              <p>( 3% off )</p>
+                            </div>
+                            <div class="col-12 font_color_blue">
+                              <p>₹ 1710</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+              
+
     <section>
       <swiper-container
       id="mySwipers-1"
@@ -259,7 +589,7 @@
   
     <section class="background_linear-color">
       <div class="container-fluid  ">
-        <div class="row">
+        <div class="row m-0 p-0">
           <div class="d-flex flex-column justify-content-center align-items-center">
             <p class="fs-3 mb-0 text-capitalize">shop by</p>
             <p class="display-3 fw-bold text-uppercase ">category</p>
@@ -268,7 +598,7 @@
       </div>
     
       <div class="container-fluid py-5 overflow-hidden ">
-        <div class="row g-5 ">
+        <div class="row m-0 p-0 g-5 ">
           <swiper-container class="mySwiper" id="mySwipers" loop="true"  
               slides-per-view="5"
               space-between="40"
@@ -427,7 +757,7 @@
             </a>
           </div>
 
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_4.png"
               class="object_cover d-block position-relative"
@@ -446,7 +776,7 @@
               </div>
             </a>
           </div>
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_3.png"
               class="object_cover d-block position-relative"
@@ -466,7 +796,7 @@
             </a>
           </div>
 
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_5.png"
               class="object_cover d-block position-relative"
@@ -486,7 +816,7 @@
             </a>
           </div>
 
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_1.png"
               class="object_cover d-block position-relative"
@@ -506,7 +836,7 @@
             </a>
           </div>
 
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_3.png"
               class="object_cover d-block position-relative"
@@ -525,7 +855,7 @@
               </div>
             </a>
           </div>
-          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row align-item-center justify-content-center">
+          <div class="swiper-slide heritage_by_aayra_img_container object_contain d-flex flex-row m-0 p-0 align-item-center justify-content-center">
             <img
               src="assets/Heritage_by_aayra/Heritage_img_1.png"
               class="object_cover d-block position-relative"
@@ -571,7 +901,7 @@
 
     <!-- Shop By Look -->
     <section class="container mt-3 mb-3">
-      <div class="row ">
+      <div class="row m-0 p-0 ">
         <div class="col-lg-7 col-md-7 col-sm-7 col-12">
           <p class="font_size_27 m-0 font_weight_400 font_color_dark_blue d-flex justify-content-center justify-content-lg-start justify-content-md-start justify-content-sm-start">
             Shop By
@@ -697,14 +1027,14 @@
         >
           Budget
         </p>
-        <div class="row mt-3 ">
+        <div class="row m-0 p-0 mt-3 ">
          <!-- image - 1 -->
           <div
             class="col-12 col-lg-4 col-md-4 col-sm-4 pt-5 d-flex flex-column-reverse"
           >
             <a href="">
               <div
-                class="d-flex flex-row justify-content-center flex-end position-relative"
+                class="d-flex flex-row m-0 p-0 justify-content-center flex-end position-relative"
               >
                 <img
                   src="assets/Shop_by_budget/Budget_img_2.png"
@@ -727,7 +1057,7 @@
           >
             <a href="">
               <div
-                class="d-flex flex-row justify-content-center position-relative"
+                class="d-flex flex-row m-0 p-0 justify-content-center position-relative"
               >
                 <img
                   src="assets/Shop_by_budget/Budget_img_1.png"
@@ -748,7 +1078,7 @@
           <div class="col-12 col-lg-4 col-md-4 col-sm-4 pt-4">
             <a href="">
               <div
-                class="d-flex flex-row justify-content-center position-relative"
+                class="d-flex flex-row m-0 p-0 justify-content-center position-relative"
               >
                 <img
                   src="assets/Shop_by_budget/Budget_img_3.png"
@@ -1076,7 +1406,7 @@
       class="vedio_call_section pb-5 background_color_grey default_padding"
     >
       <div class="container">
-        <div class="vedio_call_banner row m-0 p-0">
+        <div class="vedio_call_banner row m-0 p-0 m-0 p-0">
           <div
             class="vedio_call_box_one col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5"
           >
@@ -1094,14 +1424,15 @@
                   Live Designs On <br />
                   Video Call
                 </p>
-                <button
+               
+                  <button
                   class="vedio_call_banner_button background_color_blue font_size_16 font_color_white pt-2 pb-2 ps-5 pe-5 d-flex justify-content-center align-items center rounded-2"
                 >
                   COMMMING SOON
                 </button>
               </div>
             </div>
-          </div>
+              </div>  
           <!-- -----------------card_two-------------------- -->
           <div
             class="vedio_call_box_one col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5"
@@ -1127,13 +1458,12 @@
                 </button>
               </div>
             </div>
-    </div>
-  </div>
+    
 </section>
               <section class="d-flex justify-content-center  align-items-center">
               <div class="container-customize">
                 <div class=" footer-background-image  py-4 overflow-hidden  ">
-                  <div class="row  ">
+                  <div class="row m-0 p-0  ">
                     <div class="col-lg-3 col-md-12  mb-4">
                       <img src="assets/Footer/Footer_logo (2).png" alt="">
                       <p class="text-uppercase mt-2">Follow Us</p>
@@ -1146,7 +1476,7 @@
         </div>
       </div>
       <div class="col-lg-9 col-md-12">
-        <div class="row">
+        <div class="row m-0 p-0">
           <div
             class="col-md-6 col-sm-6 col-sm-6 col-lg-4 mb-3 font_color_blue"
           >
@@ -1187,17 +1517,18 @@
             <p class="mb-2 fs-4">Lorem Ipsum</p>
             <p class="mb-2 fs-4">Lorem Ipsum</p>
             <p class="mb-2 fs-4">Lorem Ipsum</p>
-          </div>
-        </div>
-      </div>
-    </div>
+          
   </div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
 <section class="d-flex justify-content-center align-items-center">
 <div class="container-customize">
   <div class="footer-background-image py-4 overflow-hidden">
-    <div class="row border-top border-bottom border-3 font_color_blue">
+    <div class="row m-0 p-0 border-top border-bottom border-3 font_color_blue">
       <div
         class="d-flex justify-content-end align-items-center gap-5 mt-4"
       >
@@ -1284,7 +1615,6 @@
 </h4>
 </footer>
     <!-- footer -->
-    
            
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -1335,7 +1665,7 @@
           },
           1024: {
             // For screens >= 1024px
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 50,
           },
         },
@@ -1410,4 +1740,20 @@
         },
       });
     </script>
+   
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </html>

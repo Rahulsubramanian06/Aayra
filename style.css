@@ -1,15 +1,3 @@
-@font-face {
-  font-family: "Helvetica Now Display";
-  src: url("HelveticaNowDisplay-ThinIta.eot");
-  src: local("Helvetica Now Display Thin Ita"),
-    local("HelveticaNowDisplay-ThinIta"),
-    url("HelveticaNowDisplay-ThinIta.eot?#iefix") format("embedded-opentype"),
-    url("HelveticaNowDisplay-ThinIta.woff2") format("woff2"),
-    url("HelveticaNowDisplay-ThinIta.woff") format("woff"),
-    url("HelveticaNowDisplay-ThinIta.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic;
-}
 * {
   font-family: "Helvetica Now Display";
 }
@@ -385,4 +373,23 @@ body {
   .Shop_by_look_big_img img {
     max-width: 300px;
   }
+}
+#landing_section_swiper_container::part(bullet-active) {
+  background-color: rgb(255, 255, 255);
+}
+
+.img_wrapper {
+  height: 482px;
+}
+.collections {
+  height: 100%;
+}
+.best_seller_container {
+  height: 175px;
+}
+.best_seller_wrapper {
+  height: 250px;
+}
+.collection {
+  background: linear-gradient(180deg, #b3d3ffcc, #ffffff);
 }
