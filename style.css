@@ -40,12 +40,11 @@
     height: 100%;
   }
   .best_seller_container{
-height: 360px;
+height: 175px;
   }
   .best_seller_wrapper{
     height: 250px;
   }
-
-  .border{
-    border: 1px solid salmon;
+  .collection{
+    background: linear-gradient(180deg,#B3D3FFCC,#FFFFFF);
   }
